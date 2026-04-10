@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class Funcionario {
+public abstract class Funcionario extends Pessoa {
+    public Funcionario(String nome, int idade) {
+        super(nome, idade);
+    }
 }

@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public abstract class Pessoa {
+    private String nome;
+    private int idade;
 
-public class Pessoa {
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    public String getNome() { return nome; }
 }
