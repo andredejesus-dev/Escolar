@@ -9,7 +9,7 @@ public class Main {
 
         do {
             System.out.println("\n1-Cadastrar 2-Listar 0-Sair");
-            op = Integer.parseInt(sc.nextLine()); // 🔥 corrigido
+            op = Integer.parseInt(sc.nextLine());
 
             switch(op) {
 
